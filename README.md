@@ -4,6 +4,9 @@
 This project is a browser-based code editor built using React.  
 It supports advanced keyboard shortcuts similar to VS Code, event logging, undo/redo history, and performance optimization using debouncing.
 
+## Objective
+To build a high-performance browser-based code editor that supports advanced keyboard event handling, undo/redo state management, event debugging, and performance optimization using debouncing.
+
 ##  Features
 - Keyboard shortcut handling (Ctrl/Cmd based)
 - Undo and redo functionality
@@ -13,6 +16,16 @@ It supports advanced keyboard shortcuts similar to VS Code, event logging, undo/
 - Event debugging dashboard
 - Debounced syntax highlighting simulation
 - Docker containerized setup
+
+## Project Structure
+
+code-editor/
+│── src/
+│── Dockerfile
+│── docker-compose.yml
+│── .env.example
+│── package.json
+│── README.md
 
 ##  Technologies Used
 - React JS
