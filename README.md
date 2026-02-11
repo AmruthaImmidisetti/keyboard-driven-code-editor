@@ -18,7 +18,7 @@ To build a high-performance browser-based code editor that supports advanced key
 - Docker containerized setup
 
 ## Project Structure
-
+```
 code-editor/
 │── src/
 │── Dockerfile
@@ -26,6 +26,7 @@ code-editor/
 │── .env.example
 │── package.json
 │── README.md
+```
 
 ##  Technologies Used
 - React JS
