@@ -1,10 +1,10 @@
 # High Performance Code Editor
 
-## 📌 Project Overview
+##  Project Overview
 This project is a browser-based code editor built using React.  
 It supports advanced keyboard shortcuts similar to VS Code, event logging, undo/redo history, and performance optimization using debouncing.
 
-## 🚀 Features
+##  Features
 - Keyboard shortcut handling (Ctrl/Cmd based)
 - Undo and redo functionality
 - Tab indentation and outdent
@@ -14,13 +14,13 @@ It supports advanced keyboard shortcuts similar to VS Code, event logging, undo/
 - Debounced syntax highlighting simulation
 - Docker containerized setup
 
-## 🛠 Technologies Used
+##  Technologies Used
 - React JS
 - JavaScript
 - HTML & CSS
 - Docker & Docker Compose
 
-## ▶️ Running Locally
+##  Running Locally
 
 ```bash
 npm install
@@ -33,7 +33,7 @@ App runs at:
 http://localhost:3000
 ```
 
-## 🐳 Running With Docker
+##  Running With Docker
 
 ```bash
 docker-compose up --build
@@ -45,7 +45,7 @@ Then open:
 http://localhost:3000
 ```
 
-## ⌨ Keyboard Shortcuts
+##  Keyboard Shortcuts
 
 | Shortcut                       | Action         |
 | ------------------------------ | -------------- |
@@ -57,12 +57,12 @@ http://localhost:3000
 | Ctrl/Cmd + /                   | Toggle comment |
 | Ctrl/Cmd + K then Ctrl/Cmd + C | Chord success  |
 
-## 📊 Exposed Functions
+##  Exposed Functions
 
 * `window.getEditorState()` → Returns editor content and history size.
 * `window.getHighlightCallCount()` → Returns syntax highlight call count.
 
-## 🐳 Containerization
+##  Containerization
 
 The project includes:
 
@@ -74,9 +74,4 @@ Run using a single command:
 
 ```
 docker-compose up
-```
-✅ UI improvement tips  
-✅ Final code review  
-
-Just tell 👍
 ```
